@@ -1,0 +1,49 @@
+html { 
+    background: url("http://feelgrafix.com/data_images/out/16/906997-tractor-wallpaper.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    color:  white;
+    background-color: transparent;
+}
+
+h1#app-name {
+    font-size:100px;
+}
+
+button#refreshbtn {
+    display:none;
+}
+
+img#selected-img{
+    width:150px;
+    height:150px;
+    padding:20px;
+    display:none;
+    margin: 0 auto;
+}
+
+h2#page-header {
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: black;
+    opacity: .25;
+}
+
+body #page-container {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn-wrapper {
+    padding: 20px 0;
+}
+
+input#my-file-selector {
+    display:none;
+}
